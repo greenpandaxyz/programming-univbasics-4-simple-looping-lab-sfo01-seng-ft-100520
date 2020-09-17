@@ -19,11 +19,13 @@ def output_array(array)
   while array[count] do
     puts array[count]
     count +=1
+    second
     end
   end
 
 def return_string_array(array)
   count = 0
+  second = []
   while count < array.length do
     array[count].to_s
     count += 1
