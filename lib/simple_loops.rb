@@ -7,9 +7,10 @@ def loop_message_five_times(message)
   end
 end
 
-def loop_message_n_times(bar, foo)
+def loop_message_n_times(string,integer)
   count = 0
-  while count < bar.length do
+  while count < integer.length do
     puts message
     count += 1
   end
+end
