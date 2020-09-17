@@ -5,3 +5,4 @@ def loop_message_five_times(string)
     puts string[message]
     message += 1
   end
+end
