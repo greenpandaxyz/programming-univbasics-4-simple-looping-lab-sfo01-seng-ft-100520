@@ -19,7 +19,6 @@ def output_array(array)
   while array[count] do
     puts array[count]
     count +=1
-    second
     end
   end
 
