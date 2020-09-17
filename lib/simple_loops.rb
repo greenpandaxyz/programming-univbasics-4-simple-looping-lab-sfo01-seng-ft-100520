@@ -26,8 +26,8 @@ def return_string_array(array)
   count = 0
   second_array = []
   while count < array.length do
-    array[count].to_s
+    second_array.push(array[count].to_s)
     count += 1
-    second_array
   end
+      second_array
   end
